@@ -6,3 +6,4 @@
 #
 
 LOCAL_PATH := device/vivo/k68v1_64
+
