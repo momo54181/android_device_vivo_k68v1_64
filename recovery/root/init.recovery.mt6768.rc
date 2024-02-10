@@ -143,8 +143,6 @@ service mobicore /vendor/bin/mcDriverDaemon --P1 /mnt/vendor/persist/mcRegistry 
 on property:hwservicemanager.ready=true
     start gatekeeper-1-0
     start vendor.keymaster-3-0-trustonic
-    start keystore
-    start keystore_auth
 
 on property:ro.crypto.state=unsupported
     stop vendor.keymaster-3-0-trustonic
